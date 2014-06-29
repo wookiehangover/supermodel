@@ -7,7 +7,7 @@
 
   // CommonJS
   else if (typeof exports !== 'undefined') {
-    callback(exports, require('backbone'), require('underscore'));
+    callback(exports, require('backdash'), require('lodash'));
   }
 
   // Globals
